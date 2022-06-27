@@ -665,49 +665,39 @@
           "@sap.quickinfo": "Internal Mail Postal Code"
         },
         "to_EmailAddress": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_AddressEmailAddress",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_FaxNumber": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_AddressFaxNumber",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_MobilePhoneNumber": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_AddressPhoneNumber",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_PhoneNumber": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_AddressPhoneNumber",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_URLAddress": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_AddressHomePageURL",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         }
       }
     },
@@ -1438,79 +1428,61 @@
           "@sap.quickinfo": "Company ID of Trading Partner"
         },
         "to_BuPaIdentification": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_BuPaIdentification",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_BuPaIndustry": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_BuPaIndustry",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_BusinessPartnerAddress": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_BusinessPartnerAddress",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_BusinessPartnerBank": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_BusinessPartnerBank",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_BusinessPartnerContact": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_BusinessPartnerContact",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_BusinessPartnerRole": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_BusinessPartnerRole",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_BusinessPartnerTax": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_BusinessPartnerTaxNumber",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_Customer": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_Customer",
-          "keys": []
+          "target": "API_BUSINESS_PARTNER.A_Customer"
         },
         "to_Supplier": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_Supplier",
-          "keys": []
+          "target": "API_BUSINESS_PARTNER.A_Supplier"
         }
       }
     },
@@ -1840,58 +1812,46 @@
           "@sap.label": "Township"
         },
         "to_AddressUsage": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_BuPaAddressUsage",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_EmailAddress": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_AddressEmailAddress",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_FaxNumber": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_AddressFaxNumber",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_MobilePhoneNumber": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_AddressPhoneNumber",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_PhoneNumber": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_AddressPhoneNumber",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_URLAddress": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_AddressHomePageURL",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         }
       }
     },
@@ -2102,19 +2062,15 @@
           "@sap.quickinfo": "Business Partner Relationship Category"
         },
         "to_ContactAddress": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_BPContactToAddress",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_ContactRelationship": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_BPContactToFuncAndDept",
-          "keys": []
+          "target": "API_BUSINESS_PARTNER.A_BPContactToFuncAndDept"
         }
       }
     },
@@ -2486,49 +2442,39 @@
           "@sap.quickinfo": "Central Deletion Flag for Master Record"
         },
         "to_CustomerCompany": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_CustomerCompany",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_CustomerSalesArea": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_CustomerSalesArea",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_CustomerTaxGrouping": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_CustomerTaxGrouping",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_CustomerText": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_CustomerText",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_CustomerUnloadingPoint": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_CustomerUnloadingPoint",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         }
       }
     },
@@ -2796,31 +2742,25 @@
           "@sap.quickinfo": "Customer Account Group"
         },
         "to_CompanyText": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_CustomerCompanyText",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_CustomerDunning": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_CustomerDunning",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_WithHoldingTax": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_CustomerWithHoldingTax",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         }
       }
     },
@@ -3299,31 +3239,25 @@
           "@sap.quickinfo": "Customer Account Group"
         },
         "to_PartnerFunction": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_CustSalesPartnerFunc",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_SalesAreaTax": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_CustomerSalesAreaTax",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_SalesAreaText": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_CustomerSalesAreaText",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         }
       }
     },
@@ -4280,31 +4214,25 @@
           "@sap.quickinfo": "Tax Split"
         },
         "to_SupplierCompany": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_SupplierCompany",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_SupplierPurchasingOrg": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_SupplierPurchasingOrg",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_SupplierText": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_SupplierText",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         }
       }
     },
@@ -4603,37 +4531,29 @@
           "@sap.quickinfo": "Supplier Account Group"
         },
         "to_CompanyText": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_SupplierCompanyText",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_Supplier": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
-          "target": "API_BUSINESS_PARTNER.A_Supplier",
-          "keys": []
+          "target": "API_BUSINESS_PARTNER.A_Supplier"
         },
         "to_SupplierDunning": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_SupplierDunning",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_SupplierWithHoldingTax": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_SupplierWithHoldingTax",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         }
       }
     },
@@ -5076,22 +4996,18 @@
           "@sap.quickinfo": "Supplier Account Group"
         },
         "to_PartnerFunction": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_SupplierPartnerFunc",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         },
         "to_PurchasingOrgText": {
-          "@cds.ambiguous": "missing on condition?",
           "type": "cds.Association",
           "target": "API_BUSINESS_PARTNER.A_SupplierPurchasingOrgText",
           "cardinality": {
             "max": "*"
-          },
-          "keys": []
+          }
         }
       }
     },
